@@ -13,13 +13,31 @@
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td class="js-student-id"><a href="#">4333</a></td>
+          <td class="js-student-name">name</td>
+        </tr><tr>
+          <td class="js-student-id"><a href="#">1234</a></td>
+          <td class="js-student-name">name</td>
+        </tr><tr>
+          <td class="js-student-id"><a href="#">2345</a></td>
+          <td class="js-student-name">name</td>
+        </tr><tr>
+          <td class="js-student-id"><a href="#">5566</a></td>
+          <td class="js-student-name">name</td>
+        </tr><tr>
+          <td class="js-student-id"><a href="#">3332</a></td>
+          <td class="js-student-name">name</td>
+        </tr>
       </tbody>
     <table>
     <script src="js/fdb.min.js"></script>
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script>
-    
+      $(".js-student-id").click(function(){
+        alert($(this).text());
+      });
     </script>
   </body>
 </html>
